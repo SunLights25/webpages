@@ -1,2 +1,21 @@
 @import url(./reset.css);
 
+:root{
+    --color-text:#fff;
+    --bg-color-main:#202124;
+    --bg-color-font:#303134; 
+}
+body{
+    background-color: var(--bg-color-main);
+    color: var(--color-text);
+}
+header h1,footer{
+    text-align: center;
+}
+aside{
+    padding: 0rem;
+    max-width: 25rem;
+}
+figure img{
+    width: 100%;
+}
