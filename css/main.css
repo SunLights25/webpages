@@ -13,8 +13,9 @@ header h1,footer{
     text-align: center;
 }
 aside{
-    padding: 0rem;
+    padding: 5rem 0;
     max-width: 25rem;
+    margin: 0 auto;
 }
 figure img{
     width: 100%;
